@@ -1,0 +1,25 @@
+# Ambiente virtual
+venv/
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+
+# Cache do pytest
+.pytest_cache/
+
+# Arquivos do Streamlit
+.streamlit/config.toml
+
+# Configuração do editor (opcional)
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
