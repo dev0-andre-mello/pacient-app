@@ -8,7 +8,7 @@ lint:
 	@flake8 app tests
 
 test:
-	@pytest
+	@PYTHONPATH=. pytest tests/
 
 install:
 	@pip install -r requirements.txt
